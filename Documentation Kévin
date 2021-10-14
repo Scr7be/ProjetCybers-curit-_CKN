@@ -1,1 +1,11 @@
 C:\Users\KEIMADT\AppData\Local\Google\Chrome\User Data\Default
+
+Broken authentication and session management
+(Traduit littéralement authentification cassé et gestion de session)
+
+Sont différentes types d'attaques informatiques qui permettent de se connecter sur un compte d'un site web en capturant ou contournant l'aurification. 
+Il existe plusieurs failles qui permet cette attaque:
+-Les informations d'authentification des utilisateurs ne sont pas protégés -> données non chiffrés
+-Des logins prévisibles
+-L’URL contient les logins du compte
+-Le cookie de session n’expire pas ou reste valide après une déconnexion. 
