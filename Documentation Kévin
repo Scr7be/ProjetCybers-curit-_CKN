@@ -5,7 +5,11 @@ Broken authentication and session management
 
 Sont différentes types d'attaques informatiques qui permettent de se connecter sur un compte d'un site web en capturant ou contournant l'aurification. 
 Il existe plusieurs failles qui permet cette attaque:
--Les informations d'authentification des utilisateurs ne sont pas protégés -> données non chiffrés
+-Les informations d'authentification des utilisateurs ne sont pas protégés 
 -Des logins prévisibles
 -L’URL contient les logins du compte
 -Le cookie de session n’expire pas ou reste valide après une déconnexion. 
+-Après une connexion réussie, les Id de session ne change pas
+-Les informations liées à la connexion ne sont pas chiffrées
+
+L'objectif d'une attaque est de mettre la main sur un compte pour le détourner.
